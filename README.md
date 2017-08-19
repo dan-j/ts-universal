@@ -31,14 +31,16 @@ _or simply,_
 There's still work to do and tidy the project up. Dependencies may be listed in the incorrect 
 place, there may also be unused dependencies. This will be fixed soon.
 
+TypeScript definitions for react-universal-component, webpack-flush-chunks and 
+webpack-hot-server-middleware don't exist so I have written them within this project. The aim is 
+to publish these when I next get chance.
+
 Only the `dev` and `test` NPM scripts have been tested, the others likely won't work because I've
  taken them from another one of my starter projects, [ts-react-express-starter]
 
 There's a custom jest-preprocessor to transpile TSC -> Babel -> JS and correctly generating 
 source maps to get proper coverage (ts-jest doesn't do this correctly because Babel doesn't 
 correctly map when given input source maps from tsc) 
-
-
 
 Enjoy.
 
