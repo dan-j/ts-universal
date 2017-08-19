@@ -3,6 +3,8 @@
 /dist
 /ts-build
 /build
+/buildClient
+/buildServer
 /coverage
 
 *.log
